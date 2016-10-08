@@ -1,0 +1,13 @@
+*{margin:0px; padding:0px;}
+
+body{
+	background-color:gray;
+}
+.header{
+	 width:960px;
+	 height:50px;
+	 margin:0 auto;
+	 background:#52A014;
+	
+	 
+ }
