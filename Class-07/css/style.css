@@ -1,13 +1,39 @@
 *{margin:0px; padding:0px;}
 
 body{
+	padding:10px;
 	background-color:gray;
 }
-.header{
-	 width:960px;
+.menubar{
+	 width:900px;
 	 height:50px;
 	 margin:0 auto;
 	 background:#52A014;
 	
 	 
  }
+ ul.header_menu{
+	 list-style:none;
+ }
+ ul.header_menu li{
+	 float:left;
+	 margin-right:10px;
+	 
+ }
+ ul.header_menu li a {
+	text-decoration:none;
+	color:#fff;
+	text-transform:uppercase;
+	padding:15px 40px;
+	font-weight:bold;
+	font-family:arial;
+	display:block;
+ }
+  ul.header_menu li a:hover{
+	  color:yellow;
+	  background-color:#fff;
+	  transition:5s;
+	  border-radius:50px;
+	  
+	  
+  }
