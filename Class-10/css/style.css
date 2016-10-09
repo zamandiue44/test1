@@ -59,3 +59,17 @@ ul.drop li{
 	margin:0 auto;
 	box-shadow:0px 0px 50px 20px gray;
 }
+.newdropdown:hover ul.drop2{display:block;}
+
+ul.drop2{
+	position:absolute;
+	list-style:none;
+	background:#52A014;
+	left:200px;
+	top:99px;
+	width:200px;
+	display:none;
+	box-shadow:0px 0px 10px 2px gray;
+	
+}
+
